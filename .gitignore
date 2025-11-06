@@ -1,0 +1,23 @@
+Python cache files
+
+pycache/
+*.pyc
+
+Jupyter Notebook checkpoints
+
+.ipynb_checkpoints
+
+IDE / OS files
+
+.DS_Store
+.vscode/
+
+Ignore all generated results.
+
+The evaluator will generate these.
+
+/results/*
+
+But DO NOT ignore the .gitkeep file
+
+!/results/.gitkeep

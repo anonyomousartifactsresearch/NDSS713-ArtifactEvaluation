@@ -1,0 +1,13 @@
+# --- Core ML & Data Libraries ---
+
+torch==2.8.0
+pandas==2.3.2
+numpy==1.26.4
+scikit-learn==1.7.2
+
+# --- Plotting & Utilities ---
+
+matplotlib==3.10.6
+seaborn==0.13.2
+tqdm==4.66.4
+tabulate==0.9.0

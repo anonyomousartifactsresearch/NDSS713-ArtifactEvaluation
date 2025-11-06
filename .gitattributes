@@ -1,0 +1,5 @@
+This file tells Git to use LFS for your large dataset files.
+
+This is critical for anonymity and for bypassing the 100MB file limit.
+
+*.csv filter=lfs diff=lfs merge=lfs -text
