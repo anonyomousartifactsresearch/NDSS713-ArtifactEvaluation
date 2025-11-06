@@ -133,6 +133,11 @@ PANDORA-AE/
 
 > All commands below assume you're either inside the Docker container or have activated the Python virtualenv and are at the repo root.
 
+## 0) Run all the results
+```bash
+bash run_all.sh
+```
+
 ## 1) SOTA comparison (CICIDS2017)
 Scenario 1 (Hide DDoS):
 ```bash
@@ -169,6 +174,16 @@ bash reproduce_results/reproduce_architecture_ablation_ciciot2023.sh
 ## 4) Hyperparameter sensitivity (CICIDS2017)
 ```bash
 bash reproduce_results/reproduce_hyperparams_ablation_cicids2017.sh
+```
+
+## 5) Domain Shift Results
+Few-Shot Adaptation for CICIDS2017:
+```bash
+bash reproduce_results/reproduce_cicids2017_domain_shift.sh
+```
+Zero Shot Learning for CICIDS2018:
+```bash
+reproduce_results/reproduce_cicids2018_zsl.sh
 ```
 
 Each script will write logs, training artifacts, CSVs, and plots to `results/<experiment_folder>/`.
