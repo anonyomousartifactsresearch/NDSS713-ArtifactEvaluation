@@ -49,7 +49,7 @@ These claims and their reproduction steps are documented and automated in the `r
 1. Pull the pre-built image (GHCR):
 
 ```bash
-docker pull ghcr.io/anonyomousartifactsresearch/pandora-ae:latest
+docker pull ghcr.io/anonyomousartifactsresearch/pandora-ae:1.0
 ```
 
 2. Create a local `results/` folder and run:
@@ -58,10 +58,10 @@ docker pull ghcr.io/anonyomousartifactsresearch/pandora-ae:latest
 mkdir -p $(pwd)/results
 
 # If you have an NVIDIA GPU
-docker run -it --name pandora-ae   -v $(pwd)/results:/app/results   --gpus all   ghcr.io/anonyomousartifactsresearch/pandora-ae:latest
+docker run -it --name pandora-ae   -v $(pwd)/results:/app/results   --gpus all   ghcr.io/anonyomousartifactsresearch/pandora-ae:1.0
 
 # If no GPU, omit --gpus all (Recommended):
-docker run -it --name pandora-ae -v $(pwd)/results:/app/results ghcr.io/anonyomousartifactsresearch/pandora-ae:latest
+docker run -it --name pandora-ae -v $(pwd)/results:/app/results ghcr.io/anonyomousartifactsresearch/pandora-ae:1.0
 ```
 
 Inside the container you'll be at `/app` (or similar). Use the `reproduce_results/` scripts to run experiments. All outputs will appear in your host `results/` folder thanks to the volume mount.
