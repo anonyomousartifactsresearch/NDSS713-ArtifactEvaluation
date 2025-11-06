@@ -60,8 +60,8 @@ mkdir -p $(pwd)/results
 # If you have an NVIDIA GPU
 docker run -it --name pandora-ae   -v $(pwd)/results:/app/results   --gpus all   ghcr.io/anonyomousartifactsresearch/pandora-ae:latest
 
-# If no GPU, omit --gpus all:
-# docker run -it --name pandora-ae -v $(pwd)/results:/app/results ghcr.io/anonyomousartifactsresearch/pandora-ae:latest
+# If no GPU, omit --gpus all (Recommended):
+docker run -it --name pandora-ae -v $(pwd)/results:/app/results ghcr.io/anonyomousartifactsresearch/pandora-ae:latest
 ```
 
 Inside the container you'll be at `/app` (or similar). Use the `reproduce_results/` scripts to run experiments. All outputs will appear in your host `results/` folder thanks to the volume mount.
@@ -74,7 +74,7 @@ Inside the container you'll be at `/app` (or similar). Use the `reproduce_result
 
 ```bash
 # Install git-lfs first (platform-specific)
-git clone <URL_OF_YOUR_REPOSITORY>
+git clone https://github.com/anonyomousartifactsresearch/NDSS713-ArtifactEvaluation.git
 cd PANDORA-AE
 git lfs pull
 ```
