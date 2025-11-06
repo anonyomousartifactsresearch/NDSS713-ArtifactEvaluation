@@ -17,7 +17,6 @@
 6. [Expected outputs / results layout](#expected-outputs--results-layout)  
 7. [Notes & dataset info](#notes--dataset-info)  
 8. [Contact / citation](#contact--citation)  
-9. [License](#license)
 
 ---
 
