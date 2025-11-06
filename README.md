@@ -113,6 +113,8 @@ PANDORA-AE/
 │   ├── CICIDS2017_Ready.csv
 │   ├── CICIoT2023_Ready.csv
 │   └── TTDF_IoT_IDS_2025_Ready_Again.csv
+|   └── CICIDS2018_Domain_Shift-Ready_Again.csv.csv
+
 ├── reproduce_results/      # Shell scripts that run experiments end-to-end
 │   ├── reproduce_pandora_vs_ptnids_cicids2017_s1.sh
 │   ├── reproduce_loss_ablation_cicids2017.sh
