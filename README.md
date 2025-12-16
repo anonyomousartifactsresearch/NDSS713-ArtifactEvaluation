@@ -1,5 +1,3 @@
-# PANDORA-AE: Artifact Evaluation
-
 > **PANDORA:** Lightweight Adversarial Defense for Edge IoT using Uncertainty-Aware Metric Learning  
 
 ---
