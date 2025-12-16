@@ -1,8 +1,6 @@
 # PANDORA-AE: Artifact Evaluation
 
 > **PANDORA:** Lightweight Adversarial Defense for Edge IoT using Uncertainty-Aware Metric Learning  
-> Artifact Evaluation (AE) package for the PANDORA paper (NDSS 2026 submission).  
-> *This README was prepared using the project's artifact documentation (AE.docx).*
 
 ---
 
@@ -73,7 +71,7 @@ Inside the container you'll be at `/app` (or similar). Use the `reproduce_result
 
 ```bash
 # Install git-lfs first (platform-specific)
-git clone https://github.com/anonyomousartifactsresearch/NDSS713-ArtifactEvaluation.git
+git clone https://github.com/avinash-developer/Pandora_NDSS_2026.git
 cd PANDORA-AE
 git lfs pull
 ```
