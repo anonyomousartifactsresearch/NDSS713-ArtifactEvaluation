@@ -218,9 +218,19 @@ All plots are saved as `.png` files and numeric results (per-run metrics) are sa
 
 ---
 
-# Contact / citation
+## Contact / Citation
+
+**Project Website:** [https://avinash-developer.github.io/Pandora_NDSS_2026_Website/](https://avinash-developer.github.io/Pandora_NDSS_2026_Website/)
 
 If you use this artifact in your work, cite the PANDORA paper (see `Pandora_NDSS2026.pdf` in repo). For issues or questions, open an issue on the repository or contact the authors (see paper header). This README and reproduction instructions were prepared from the artifact's AE documentation (AE.docx).
+
+```bibtex
+@inproceedings{awasthi2026pandora,
+  title={PANDORA: Lightweight Adversarial Defense for Edge IoT using Uncertainty-Aware Metric Learning.},
+  author={Awasthi, Avinash and Vediya, Pritam and Miranka, Hemant and Battula, Ramesh Babu and Gaur, Manoj Singh},
+  booktitle={NDSS},
+  year={2026}
+}
 
 ---
 
