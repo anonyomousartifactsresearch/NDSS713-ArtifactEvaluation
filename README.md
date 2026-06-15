@@ -230,11 +230,4 @@ If you use this artifact in your work, cite the PANDORA paper (see `Pandora_NDSS
   author={Awasthi, Avinash and Vediya, Pritam and Miranka, Hemant and Battula, Ramesh Babu and Gaur, Manoj Singh},
   booktitle={NDSS},
   year={2026}
-}
-
----
-
-## Quick checklist before running experiments
-- [ ] Docker installed (recommended) OR Python 3.12 environment ready  
-- [ ] `git lfs` installed and `git lfs pull` executed (if building locally)  
-- [ ] `results/` folder mount or local folder exists and is writable  
+} 
